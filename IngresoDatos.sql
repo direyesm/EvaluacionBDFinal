@@ -34,7 +34,7 @@ INSERT INTO TEST VALUES ('M2','Evaluacion II','Descripcion 2','P02','Autor 2',TO
 INSERT INTO TEST VALUES ('M3','Evaluacion III','Descripcion 3','P03','Autor 3',TO_DATE('17/07/2020', 'DD/MM/YYYY'));
 INSERT INTO TEST VALUES ('M4','Evaluacion VI','Descripcion 4','P04','Autor 4',TO_DATE('17/07/2020', 'DD/MM/YYYY'));
 
-
+---INSERTAR DATO PREGUNTA---
 --Pregunta 1 test 1--
 INSERT INTO pregunta VALUES ('P1','Enunciado 1-1',10,'M1');
 INSERT INTO pregunta VALUES ('P2','Enunciado 1-2',10,'M1');
@@ -83,7 +83,7 @@ INSERT INTO pregunta VALUES ('P38','Enunciado 4-8',10,'M4');
 INSERT INTO pregunta VALUES ('P39','Enunciado 4-9',10,'M4');
 INSERT INTO pregunta VALUES ('P40','Enunciado 4-10',10,'M4');
 
---Ingreso de datos--
+---INSERTAR DATO CURSO_TEST---
 INSERT INTO curso_test VALUES (026, 'M1');
 INSERT INTO curso_test VALUES (039, 'M2');
 INSERT INTO curso_test VALUES (057, 'M3');
@@ -183,12 +183,12 @@ INSERT INTO alternativas VALUES ('A68', 'Descripcion 19-2', '0', 0, 'P19');
 INSERT INTO alternativas VALUES ('A69', 'Descripcion 19-3', '0', 0, 'P19');
 INSERT INTO alternativas VALUES ('A70', 'Descripcion 19-4', '1', 100, 'P19');
 
---INSERT INTO alternativas VALUES ('A71', 'Descripcion 20-1', '0', 0, 'P20');
---INSERT INTO alternativas VALUES ('A72', 'Descripcion 20-2', '1', 50, 'P20');
---INSERT INTO alternativas VALUES ('A73', 'Descripcion 20-3', '0', 0, 'P20');
---INSERT INTO alternativas VALUES ('A74', 'Descripcion 20-4', '0', 0, 'P20');
---INSERT INTO alternativas VALUES ('A75', 'Descripcion 20-5', '1', 50, 'P20');
---INSERT INTO alternativas VALUES ('A76', 'Descripcion 20-6', '0', 0, 'P20');
+INSERT INTO alternativas VALUES ('A71', 'Descripcion 20-1', '0', 0, 'P20');
+INSERT INTO alternativas VALUES ('A72', 'Descripcion 20-2', '1', 50, 'P20');
+INSERT INTO alternativas VALUES ('A73', 'Descripcion 20-3', '0', 0, 'P20');
+INSERT INTO alternativas VALUES ('A74', 'Descripcion 20-4', '0', 0, 'P20');
+INSERT INTO alternativas VALUES ('A75', 'Descripcion 20-5', '1', 50, 'P20');
+INSERT INTO alternativas VALUES ('A76', 'Descripcion 20-6', '0', 0, 'P20');
 
 INSERT INTO alternativas VALUES ('A77', 'Descripcion 21-1', '0', 0, 'P21');
 INSERT INTO alternativas VALUES ('A78', 'Descripcion 21-2', '0', 0, 'P21');
@@ -224,11 +224,11 @@ INSERT INTO alternativas VALUES ('A100', 'Descripcion 28-2', '0', 0, 'P28');
 INSERT INTO alternativas VALUES ('A101', 'Descripcion 28-3', '1', 50, 'P28');
 INSERT INTO alternativas VALUES ('A102', 'Descripcion 28-3', '0', 0, 'P28');
 
----INSERTAR DATO CUROS_EVALUACION---
---INSERT INTO curso_evaluacion VALUES (026, 'M1');
---INSERT INTO curso_evaluacion VALUES (039, 'M2');
---INSERT INTO curso_evaluacion VALUES (057, 'M3');
---INSERT INTO curso_evaluacion VALUES (036, 'M4');
+---INSERTAR DATO CURSO_TEST---
+INSERT INTO curso_test VALUES (026, 'M1');
+INSERT INTO curso_test VALUES (039, 'M2');
+INSERT INTO curso_test VALUES (057, 'M3');
+INSERT INTO curso_test VALUES (036, 'M4');
 
 
 ---INSERTAR DATOS RESPUESTA---
@@ -256,14 +256,14 @@ INSERT INTO respuesta VALUES ('R20', 2, 'P10', 'A38');
 
 INSERT INTO respuesta VALUES ('R21', 3, 'P10', 'A1');
 INSERT INTO respuesta VALUES ('R22', 3, 'P2', 'A5');
---INSERT INTO respuesta VALUES ('R23', 3, 'P3', 'A9');
---INSERT INTO respuesta VALUES ('R24', 3, 'P4', 'A13');
---INSERT INTO respuesta VALUES ('R25', 3, 'P5', 'A17');
---INSERT INTO respuesta VALUES ('R26', 3, 'P6', 'A21');
---INSERT INTO respuesta VALUES ('R27', 3, 'P7', 'A25');
---INSERT INTO respuesta VALUES ('R28', 3, 'P8', 'A29');
---INSERT INTO respuesta VALUES ('R29', 3, 'P9', 'A33');
---INSERT INTO respuesta VALUES ('R30', 3, 'P10', 'A36');
+INSERT INTO respuesta VALUES ('R23', 3, 'P3', 'A9');
+INSERT INTO respuesta VALUES ('R24', 3, 'P4', 'A13');
+INSERT INTO respuesta VALUES ('R25', 3, 'P5', 'A17');
+INSERT INTO respuesta VALUES ('R26', 3, 'P6', 'A21');
+INSERT INTO respuesta VALUES ('R27', 3, 'P7', 'A25');
+INSERT INTO respuesta VALUES ('R28', 3, 'P8', 'A29');
+INSERT INTO respuesta VALUES ('R29', 3, 'P9', 'A33');
+INSERT INTO respuesta VALUES ('R30', 3, 'P10', 'A36');
 
 INSERT INTO respuesta VALUES ('R31', 4, 'P1', 'A4');
 INSERT INTO respuesta VALUES ('R32', 4, 'P2', 'A8');
@@ -296,13 +296,13 @@ INSERT INTO respuesta VALUES ('R56', 6, 'P35', 'A90');
 INSERT INTO respuesta VALUES ('R57', 6, 'P36', 'A89');
 INSERT INTO respuesta VALUES ('R58', 6, 'P37', 'A86');
 INSERT INTO respuesta VALUES ('R59', 6, 'P38', 'A70');
---INSERT INTO respuests VALUES ('R60', 6, 'P39', 'A10');
+INSERT INTO respuesta VALUES ('R60', 6, 'P39', 'A10');
 
 INSERT INTO respuesta VALUES ('R61', 7, 'P10', 'A1');
 INSERT INTO respuesta VALUES ('R62', 7, 'P22', 'A6');
 INSERT INTO respuesta VALUES ('R63', 7, 'P30', 'A11');
 INSERT INTO respuesta VALUES ('R64', 7, 'P40', 'A16');
---INSERT INTO respuesta VALUES ('R65', 7, 'P41', 'A19');
+INSERT INTO respuesta VALUES ('R65', 7, 'P39', 'A19');
 INSERT INTO respuesta VALUES ('R66', 7, 'P5', 'A22');
 INSERT INTO respuesta VALUES ('R67', 7, 'P7', 'A26');
 INSERT INTO respuesta VALUES ('R68', 7, 'P38', 'A29');
@@ -350,8 +350,8 @@ INSERT INTO respuesta VALUES ('R104', 11, 'P15', 'A51');
 INSERT INTO respuesta VALUES ('R105', 11, 'P16', 'A55');
 INSERT INTO respuesta VALUES ('R106', 11, 'P17', 'A59');
 INSERT INTO respuesta VALUES ('R107', 11, 'P18', 'A63');
---INSERT INTO respuesta VALUES ('R108', 11, 'P19', 'A67');
---INSERT INTO respuesta VALUES ('R109', 11, 'P20', 'A71');
+INSERT INTO respuesta VALUES ('R108', 11, 'P19', 'A67');
+INSERT INTO respuesta VALUES ('R109', 11, 'P20', 'A71');
 
 INSERT INTO respuesta VALUES ('R110', 12, 'P11', 'A42');
 INSERT INTO respuesta VALUES ('R111', 12, 'P13', 'A46');
@@ -361,7 +361,7 @@ INSERT INTO respuesta VALUES ('R114', 12, 'P16', 'A56');
 INSERT INTO respuesta VALUES ('R115', 12, 'P17', 'A60');
 INSERT INTO respuesta VALUES ('R116', 12, 'P18', 'A64');
 INSERT INTO respuesta VALUES ('R117', 12, 'P19', 'A68');
---INSERT INTO respuesta VALUES ('R118', 12, 'P20', 'A72');
+INSERT INTO respuesta VALUES ('R118', 12, 'P20', 'A72');
 
 INSERT INTO respuesta VALUES ('R119', 13, 'P11', 'A43');
 INSERT INTO respuesta VALUES ('R120', 13, 'P13', 'A47');
@@ -371,7 +371,7 @@ INSERT INTO respuesta VALUES ('R123', 13, 'P16', 'A57');
 INSERT INTO respuesta VALUES ('R124', 13, 'P17', 'A61');
 INSERT INTO respuesta VALUES ('R125', 13, 'P18', 'A65');
 INSERT INTO respuesta VALUES ('R126', 13, 'P19', 'A69');
---INSERT INTO respuesta VALUES ('R127', 13,'P20', 'A73');
+INSERT INTO respuesta VALUES ('R127', 13,'P20', 'A73');
 
 INSERT INTO respuesta VALUES ('R128', 14, 'P11', 'A44');
 INSERT INTO respuesta VALUES ('R129', 14, 'P13', 'A48');
@@ -381,7 +381,7 @@ INSERT INTO respuesta VALUES ('R132', 14, 'P16', 'A58');
 INSERT INTO respuesta VALUES ('R133', 14, 'P17', 'A62');
 INSERT INTO respuesta VALUES ('R134', 14, 'P18', 'A66');
 INSERT INTO respuesta VALUES ('R135', 14, 'P19', 'A70');
---INSERT INTO respuesta VALUES ('R136', 14, 'P20', 'A74');
+INSERT INTO respuesta VALUES ('R136', 14, 'P20', 'A74');
 
 INSERT INTO respuesta VALUES ('R137', 15, 'P11', 'A41');
 INSERT INTO respuesta VALUES ('R138', 15, 'P13', 'A46');
@@ -391,7 +391,7 @@ INSERT INTO respuesta VALUES ('R141', 15, 'P16', 'A57');
 INSERT INTO respuesta VALUES ('R142', 15, 'P17', 'A60');
 INSERT INTO respuesta VALUES ('R143', 15, 'P18', 'A63');
 INSERT INTO respuesta VALUES ('R144', 15, 'P19', 'A68');
---INSERT INTO respuesta VALUES ('R145', 15, 'P20', 'A73');
+INSERT INTO respuesta VALUES ('R145', 15, 'P20', 'A73');
 
 INSERT INTO respuesta VALUES ('R146', 16, 'P11', 'A44');
 INSERT INTO respuesta VALUES ('R147', 16, 'P13', 'A47');
@@ -401,7 +401,7 @@ INSERT INTO respuesta VALUES ('R150', 16, 'P16', 'A56');
 INSERT INTO respuesta VALUES ('R151', 16, 'P17', 'A61');
 INSERT INTO respuesta VALUES ('R152', 16, 'P18', 'A66');
 INSERT INTO respuesta VALUES ('R153', 16, 'P19', 'A69');
---INSERT INTO respuesta VALUES ('R154', 16, 'P20', 'A72');
+INSERT INTO respuesta VALUES ('R154', 16, 'P20', 'A72');
 
 INSERT INTO respuesta VALUES ('R155', 17, 'P11', 'A42');
 INSERT INTO respuesta VALUES ('R156', 17, 'P13', 'A46');
@@ -411,7 +411,7 @@ INSERT INTO respuesta VALUES ('R159', 17, 'P16', 'A56');
 INSERT INTO respuesta VALUES ('R160', 17, 'P17', 'A61');
 INSERT INTO respuesta VALUES ('R161', 17, 'P18', 'A64');
 INSERT INTO respuesta VALUES ('R162', 17, 'P19', 'A68');
---INSERT INTO respuesta VALUES ('R163', 17, 'P20', 'A75');
+INSERT INTO respuesta VALUES ('R163', 17, 'P20', 'A75');
 
 INSERT INTO respuesta VALUES ('R164', 18, 'P11', 'A44');
 INSERT INTO respuesta VALUES ('R165', 18, 'P13', 'A45');
@@ -421,7 +421,7 @@ INSERT INTO respuesta VALUES ('R168', 18, 'P16', 'A56');
 INSERT INTO respuesta VALUES ('R169', 18, 'P17', 'A59');
 INSERT INTO respuesta VALUES ('R170', 18, 'P18', 'A63');
 INSERT INTO respuesta VALUES ('R171', 18, 'P19', 'A70');
---INSERT INTO respuesta VALUES ('R172', 18, 'P20', 'A76');
+INSERT INTO respuesta VALUES ('R172', 18, 'P20', 'A76');
 
 INSERT INTO respuesta VALUES ('R173', 19, 'P11', 'A43');
 INSERT INTO respuesta VALUES ('R174', 19, 'P13', 'A46');
@@ -431,7 +431,7 @@ INSERT INTO respuesta VALUES ('R177', 19, 'P16', 'A57');
 INSERT INTO respuesta VALUES ('R178', 19, 'P17', 'A60');
 INSERT INTO respuesta VALUES ('R179', 19, 'P18', 'A65');
 INSERT INTO respuesta VALUES ('R180', 19, 'P19', 'A68');
---INSERT INTO respuesta VALUES ('R181', 19, 'P20', 'A73');
+INSERT INTO respuesta VALUES ('R181', 19, 'P20', 'A73');
 
 INSERT INTO respuesta VALUES ('R182', 20, 'P11', 'A42');
 INSERT INTO respuesta VALUES ('R183', 20, 'P13', 'A47');
@@ -441,4 +441,4 @@ INSERT INTO respuesta VALUES ('R186', 20, 'P16', 'A56');
 INSERT INTO respuesta VALUES ('R187', 20, 'P17', 'A61');
 INSERT INTO respuesta VALUES ('R188', 20, 'P18', 'A64');
 INSERT INTO respuesta VALUES ('R189', 20, 'P19', 'A69');
---INSERT INTO respuesta VALUES ('R190', 20, 'P20', 'A76');
+INSERT INTO respuesta VALUES ('R190', 20, 'P20', 'A76');
