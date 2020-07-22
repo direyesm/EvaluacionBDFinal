@@ -123,7 +123,7 @@ CREATE OR REPLACE VIEW notas AS
             ELSE ROUND(COUNT(CASE WHEN obtenido != 0 THEN 1 END) - (COUNT(CASE WHEN obtenido = 0 THEN 1 END) / 4), 1)
         END AS puntaje
     FROM alumnos_puntajes
-        --INNER JOIN alumno USING (id_alum) no me funciona!!!!!!
+        --INNER JOIN alumno USING (id_alum)
     GROUP BY
         alumno_id,
         alumno_nombre,
